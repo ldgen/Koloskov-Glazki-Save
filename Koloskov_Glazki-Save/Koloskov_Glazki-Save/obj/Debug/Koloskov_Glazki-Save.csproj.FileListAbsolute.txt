@@ -38,3 +38,10 @@ D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov
 D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.CoreCompileInputs.cache
 D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.exe
 D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.pdb
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\EntityFramework.dll
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\EntityFramework.SqlServer.dll
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\EntityFramework.xml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\EntityFramework.SqlServer.xml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\ru\EntityFramework.resources.dll
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save_Content.g.cs
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.CopyComplete

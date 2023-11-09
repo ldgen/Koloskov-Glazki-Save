@@ -12,6 +12,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
+        <Border Background="#FFE9F9" Grid.Row="0"></Border>
+        <Border Background="#FFE9F9" Grid.Row="2"></Border>
         <Image Source="res/Глазки-save.png" HorizontalAlignment="Left"></Image>
         <TextBlock Text="Глазки" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
         <Frame Grid.Row="1" Name="MainFrame" ContentRendered="MainFrame_ContentRendered" NavigationUIVisibility="Hidden"></Frame>
