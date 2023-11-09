@@ -1,0 +1,40 @@
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\Koloskov_Glazki-Save.exe.config
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\Koloskov_Glazki-Save.exe
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\Koloskov_Glazki-Save.pdb
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.AssemblyReference.cache
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\MainWindow.g.cs
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\App.g.cs
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save_MarkupCompile.cache
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save_MarkupCompile.lref
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\App.baml
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\MainWindow.baml
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.g.resources
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki_Save.Properties.Resources.resources
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.GenerateResource.cache
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.CoreCompileInputs.cache
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.exe
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.pdb
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\AddEditPage.g.cs
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\ServicePage.g.cs
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\AddEditPage.baml
+C:\Users\УАТ\source\repos\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\ServicePage.baml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\Koloskov_Glazki-Save.exe.config
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\Koloskov_Glazki-Save.exe
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\bin\Debug\Koloskov_Glazki-Save.pdb
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.AssemblyReference.cache
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\AddEditPage.g.cs
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\MainWindow.g.cs
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\ServicePage.g.cs
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\App.g.cs
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save_MarkupCompile.cache
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save_MarkupCompile.lref
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\App.baml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\AddEditPage.baml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\MainWindow.baml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\ServicePage.baml
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.g.resources
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki_Save.Properties.Resources.resources
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.GenerateResource.cache
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.csproj.CoreCompileInputs.cache
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.exe
+D:\applications\visual studio\repos\KoloskovGlazki\Koloskov_Glazki-Save\Koloskov_Glazki-Save\obj\Debug\Koloskov_Glazki-Save.pdb
