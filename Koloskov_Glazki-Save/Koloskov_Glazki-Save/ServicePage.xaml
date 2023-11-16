@@ -12,6 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <StackPanel Margin="5" Orientation="Horizontal">
@@ -37,6 +38,7 @@
                     <TextBlock>ОАО</TextBlock>
                     <TextBlock>ПАО</TextBlock>
                 </ComboBox>
+                <Button Name="AddAgent" Content="Добавить агента"></Button>
             </StackPanel>
         </WrapPanel>
         <ListView Name="AgentsListView" Grid.Row="1">
@@ -53,9 +55,9 @@
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
-                        <Image Width="100" Grid.Column="0" Stretch="UniformToFill" HorizontalAlignment="Center">
+                        <Image Width="200" Grid.Column="0" Grid.RowSpan="3" Stretch="UniformToFill" HorizontalAlignment="Center">
                             <Image.Source>
-                                <Binding Path="MainImagePath">
+                                <Binding Path="Logo">
                                     <Binding.TargetNullValue>
                                         <ImageSource>
                                             res/picture.png
@@ -75,5 +77,20 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Name="TBCount" FontSize="20" Height="30"></TextBlock>
+            <TextBlock Name="TBAllRecords" FontSize="20" Height="30"></TextBlock>
+            <Button Name="LeftDirButton" Content="&lt;" Width="30" Height="30"
+            Click="LeftDirButton_Click"></Button>
+            <ListBox FontSize="20" Name="PageListBox" MouseUp="PageListBox_MouseUp">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+            </ListBox>
+            <Button Name="RightDirButton" Content="&gt;" Width="30" Height="30"
+            Click="RightDirButton_Click"></Button>
+        </StackPanel>
     </Grid>
 </Page>
