@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Koloskov_Glazki-Save"
+    "\\Koloskov_Glazki-Save",
+    "\\Koloskov_Glazki-Save\\Koloskov_Glazki-Save"
   ],
-  "SelectedNode": "\\Koloskov_Glazki-Save\\Koloskov_Glazki-Save.sln",
+  "SelectedNode": "\\Koloskov_Glazki-Save\\Koloskov_Glazki-Save\\ServicePage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

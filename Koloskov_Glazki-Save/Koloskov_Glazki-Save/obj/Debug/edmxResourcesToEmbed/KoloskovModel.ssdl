@@ -4,12 +4,12 @@
     <Key>
       <PropertyRef Name="ID" />
     </Key>
-    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="AgentTypeID" Type="int" Nullable="false" />
     <Property Name="Title" Type="nvarchar" MaxLength="150" Nullable="false" />
     <Property Name="Email" Type="nvarchar" MaxLength="255" />
     <Property Name="Phone" Type="nvarchar" MaxLength="20" Nullable="false" />
-    <Property Name="Logo" Type="nvarchar" MaxLength="100" />
+    <Property Name="Logo" Type="nvarchar(max)" />
     <Property Name="Address" Type="nvarchar" MaxLength="300" />
     <Property Name="Priority" Type="int" Nullable="false" />
     <Property Name="DirectorName" Type="nvarchar" MaxLength="100" />

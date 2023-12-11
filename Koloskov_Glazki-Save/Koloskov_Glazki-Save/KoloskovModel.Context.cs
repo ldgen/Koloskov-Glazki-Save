@@ -16,15 +16,11 @@ namespace Koloskov_Glazki_Save
     public partial class Koloskov_GlazkiEntities : DbContext
     {
         private static Koloskov_GlazkiEntities _context;
-
         public static Koloskov_GlazkiEntities GetContext()
         {
-            if (_context == null)
-                _context = new Koloskov_GlazkiEntities();
-
+            if (_context == null) _context = new Koloskov_GlazkiEntities();
             return _context;
         }
-
         public Koloskov_GlazkiEntities()
             : base("name=Koloskov_GlazkiEntities")
         {

@@ -211,5 +211,26 @@ namespace Koloskov_Glazki_Save
         {
             ChangePage(0, Convert.ToInt32(PageListBox.SelectedItem.ToString()) - 1);
         }
+
+        private void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (Visibility == Visibility.Visible)
+            {
+                Koloskov_GlazkiEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                AgentsListView.ItemsSource = Koloskov_GlazkiEntities.GetContext().Agent.ToList();
+            }
+            UpdateGlazki();
+        }
+
+        private void EditAgentBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Agent));
+            UpdateGlazki();
+        }
+
+        private void AddAgent_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AddEditPage(null));
+        }
     }
 }

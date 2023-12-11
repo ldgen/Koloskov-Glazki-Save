@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Koloskov_Glazki_Save"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ServicePage">
+      Title="ServicePage" IsVisibleChanged="Page_IsVisibleChanged">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -38,7 +38,7 @@
                     <TextBlock>ОАО</TextBlock>
                     <TextBlock>ПАО</TextBlock>
                 </ComboBox>
-                <Button Name="AddAgent" Content="Добавить агента"></Button>
+                <Button Name="AddAgent" Content="Добавить агента" Click="AddAgent_Click"></Button>
             </StackPanel>
         </WrapPanel>
         <ListView Name="AgentsListView" Grid.Row="1">
@@ -46,9 +46,10 @@
                 <DataTemplate>
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition></ColumnDefinition>
-                            <ColumnDefinition></ColumnDefinition>
-                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="500"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="200"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="50"/>
@@ -73,6 +74,7 @@
                         </StackPanel>
                         <TextBlock Text="{Binding Priority, StringFormat=Приоритетность: {0}}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" FontSize="20"></TextBlock>
                         <TextBlock Text="{Binding Phone}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="20"></TextBlock>
+                        <Button Content="Изменить" Name="EditAgentBtn" Click="EditAgentBtn_Click" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Left"></Button>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
