@@ -104,5 +104,7 @@
             <Button Content="Удалить" Name="DeleteBtn" Click="DeleteBtn_Click" Margin="5"
                     Opacity="{Binding ID}"></Button>
         </StackPanel>
+
+        <Button Content="Посмотреть историю" Name="ProdViewButton" Margin="5" Width="200" Grid.Column="0" Grid.Row="6" HorizontalAlignment="Left" Click="ProdViewButton_Click"/>
     </Grid>
 </Page>

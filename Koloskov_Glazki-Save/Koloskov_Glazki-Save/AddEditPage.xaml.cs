@@ -156,5 +156,10 @@ namespace Koloskov_Glazki_Save
                 }
             }
         }
+
+        private void ProdViewButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ProdPage((sender as Button).DataContext as Agent));
+        }
     }
 }

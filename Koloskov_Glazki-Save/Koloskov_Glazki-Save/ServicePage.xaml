@@ -39,12 +39,13 @@
                     <TextBlock>ПАО</TextBlock>
                 </ComboBox>
                 <Button Name="AddAgent" Content="Добавить агента" Click="AddAgent_Click"></Button>
+                <Button Name="PriorityButton" Content="Изменить приоритет" Visibility="Hidden" Click="PriorityButton_Click"></Button>
             </StackPanel>
         </WrapPanel>
-        <ListView Name="AgentsListView" Grid.Row="1">
+        <ListView Name="AgentsListView" Grid.Row="1" SelectionMode="Extended" SelectionChanged="AgentsListView_SelectionChanged">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
+                    <Grid Background="{Binding FonStyle}">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"></ColumnDefinition>
                             <ColumnDefinition Width="500"></ColumnDefinition>
@@ -53,6 +54,7 @@
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
@@ -72,9 +74,11 @@
                             <TextBlock Text=" | " Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" FontSize="20"></TextBlock>
                             <TextBlock Text="{Binding Title}" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" FontSize="20"></TextBlock>
                         </StackPanel>
-                        <TextBlock Text="{Binding Priority, StringFormat=Приоритетность: {0}}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" FontSize="20"></TextBlock>
-                        <TextBlock Text="{Binding Phone}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="20"></TextBlock>
-                        <Button Content="Изменить" Name="EditAgentBtn" Click="EditAgentBtn_Click" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Left"></Button>
+                        <TextBlock Text="{Binding SalePercent, StringFormat=Скидка {0} %}" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Left" FontSize="20"></TextBlock>
+                        <TextBlock Text="{Binding Sales, StringFormat=Количество продаж за год: {0}}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" FontSize="20"></TextBlock>
+                        <TextBlock Text="{Binding Priority, StringFormat=Приоритетность: {0}}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="20"></TextBlock>
+                        <TextBlock Text="{Binding Phone}" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" FontSize="20"></TextBlock>
+                        <Button Content="Изменить" Name="EditAgentBtn" Click="EditAgentBtn_Click" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Left"></Button>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>

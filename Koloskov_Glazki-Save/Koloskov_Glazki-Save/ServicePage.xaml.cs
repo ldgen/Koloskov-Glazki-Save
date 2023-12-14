@@ -232,5 +232,53 @@ namespace Koloskov_Glazki_Save
         {
             Manager.MainFrame.Navigate(new AddEditPage(null));
         }
+
+        private void PriorityButton_Click(object sender, RoutedEventArgs e)
+        {
+            int max_priority = 0;
+            foreach (Agent agentPriority in AgentsListView.SelectedItems)
+            {
+                if (max_priority < agentPriority.Priority)
+                    max_priority = agentPriority.Priority;
+            }
+
+            PriorityEdit priorityEdit = new PriorityEdit(max_priority);
+            priorityEdit.ShowDialog();
+
+            if (string.IsNullOrEmpty(priorityEdit.PriorityBox.Text))
+            {
+                return;
+            }
+            if (!string.IsNullOrWhiteSpace(priorityEdit.PriorityBox.Text) && Convert.ToInt32(priorityEdit.PriorityBox.Text) > 0 && priorityEdit.CheckClick == true)
+            {
+
+                foreach (Agent agentPriority in AgentsListView.SelectedItems)
+                {
+                    agentPriority.Priority = Convert.ToInt32(priorityEdit.PriorityBox.Text);
+                }
+                try
+                {
+                    Koloskov_GlazkiEntities.GetContext().SaveChanges();
+                    MessageBox.Show("Информация сохранена");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
+            UpdateGlazki();
+        }
+
+        private void AgentsListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (AgentsListView.SelectedItems.Count > 1)
+            {
+                PriorityButton.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                PriorityButton.Visibility = Visibility.Hidden;
+            }
+        }
     }
 }
